@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="8191" systemVersion="15D21" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="mainstartViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="IM3-6g-urU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image2.png" translatesAutoresizingMaskIntoConstraints="NO" id="3LJ-Xg-6Hx">
+                    <rect key="frame" x="449" y="271" width="240" height="240"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image4.png" translatesAutoresizingMaskIntoConstraints="NO" id="QKh-HC-UNS">
+                    <rect key="frame" x="449" y="557" width="240" height="240"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sign In Personalize your health experience." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b7o-i0-cn9">
+                    <rect key="frame" x="176" y="818" width="416" height="35"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.23921570180000001" green="0.32941177490000001" blue="0.5411764979" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Not a Chap Member? Register an account today." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xkz-Kz-qSM">
+                    <rect key="frame" x="125" y="921" width="518" height="35"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.50980395079999996" green="0.50980395079999996" blue="0.50980395079999996" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="C-Champ Logol.png" translatesAutoresizingMaskIntoConstraints="NO" id="eNv-2e-qiA">
+                    <rect key="frame" x="189" y="52" width="391" height="164"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image3.png" translatesAutoresizingMaskIntoConstraints="NO" id="II4-gG-mD5">
+                    <rect key="frame" x="69" y="557" width="240" height="240"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image1.png" translatesAutoresizingMaskIntoConstraints="NO" id="sGB-pg-Ic1">
+                    <rect key="frame" x="76" y="271" width="240" height="240"/>
+                    <animations/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zko-8W-r72">
+                    <rect key="frame" x="160" y="861" width="448" height="57"/>
+                    <animations/>
+                    <state key="normal" title="Sign In" backgroundImage="mainsc.png">
+                        <color key="titleColor" red="0.16862745579999999" green="0.270588249" blue="0.51372551919999998" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="login_action:" destination="-1" eventType="touchUpInside" id="a7x-Bx-ZYb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Frk-nT-qhF">
+                    <rect key="frame" x="160" y="961" width="448" height="55"/>
+                    <animations/>
+                    <state key="normal" title="Register" backgroundImage="mainsc.png">
+                        <color key="titleColor" red="0.14901961389999999" green="0.26274511220000002" blue="0.50196081400000003" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="register_action:" destination="-1" eventType="touchUpInside" id="sff-sm-LdT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="360" y="26"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="C-Champ Logol.png" width="450" height="206"/>
+        <image name="image1.png" width="168" height="168"/>
+        <image name="image2.png" width="168" height="169"/>
+        <image name="image3.png" width="168" height="168"/>
+        <image name="image4.png" width="168" height="168"/>
+        <image name="mainsc.png" width="127" height="26"/>
+    </resources>
+</document>

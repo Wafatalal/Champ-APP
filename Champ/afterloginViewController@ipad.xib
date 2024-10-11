@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="8191" systemVersion="15D21" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="afterloginViewController">
+            <connections>
+                <outlet property="aboutBtn" destination="qcf-Ba-Q83" id="FBc-lC-9hM"/>
+                <outlet property="diastolic_lbl" destination="GZD-Aw-onK" id="1q0-Zq-5d6"/>
+                <outlet property="pulserate_lbl" destination="AtS-CV-VAH" id="LAJ-TX-01f"/>
+                <outlet property="systolic_lbl" destination="ggr-20-1p3" id="Hv0-s2-ovU"/>
+                <outlet property="username_lbl" destination="z2J-Vd-Byk" id="pW9-Pj-rSI"/>
+                <outlet property="view" destination="iN0-l3-epB" id="mhN-jZ-hGf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bar.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Z2-Yf-izv">
+                    <rect key="frame" x="0.0" y="15" width="768" height="32"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dp.png" translatesAutoresizingMaskIntoConstraints="NO" id="t6Q-zd-Sid">
+                    <rect key="frame" x="56" y="71" width="81" height="68"/>
+                    <animations/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome, " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PgW-Yc-lQh">
+                    <rect key="frame" x="145" y="78" width="104" height="32"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" red="0.4703524112701416" green="0.47036826610565186" blue="0.47035926580429077" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2J-Vd-Byk">
+                    <rect key="frame" x="255" y="78" width="173" height="32"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" red="0.61785578727722168" green="0.49961942434310913" blue="0.23602104187011719" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You do not have any health record" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yqC-4e-LJo">
+                    <rect key="frame" x="145" y="103" width="327" height="36"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.57254904510000004" green="0.57254904510000004" blue="0.57254904510000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Systolic:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPB-uP-YNA">
+                    <rect key="frame" x="145" y="131" width="91" height="40"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.57254904510000004" green="0.57254904510000004" blue="0.57254904510000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pulse Rate:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ux-SJ-M2C">
+                    <rect key="frame" x="145" y="167" width="104" height="31"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.57254904510000004" green="0.57254904510000004" blue="0.57254904510000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" Diastolic" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YeL-Ks-brl">
+                    <rect key="frame" x="339" y="137" width="84" height="27"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.57254904510000004" green="0.57254904510000004" blue="0.57254904510000004" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="N/A mm Hg" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggr-20-1p3">
+                    <rect key="frame" x="221" y="138" width="131" height="27"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.61785578727722168" green="0.49961942434310913" blue="0.23602104187011719" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="N/A mm Hg" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZD-Aw-onK">
+                    <rect key="frame" x="421" y="134" width="138" height="34"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.61785578727722168" green="0.49961942434310913" blue="0.23602104187011719" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CZ5-AM-mqB">
+                    <rect key="frame" x="0.0" y="244" width="768" height="3"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.65098041299999998" green="0.64313727620000005" blue="0.65098041299999998" alpha="1" colorSpace="deviceRGB"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ybq-9w-x4S">
+                    <rect key="frame" x="0.0" y="415" width="768" height="4"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.65098041299999998" green="0.64313727620000005" blue="0.65098041299999998" alpha="1" colorSpace="deviceRGB"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CTC-r0-30y">
+                    <rect key="frame" x="0.0" y="627" width="768" height="4"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.65098041299999998" green="0.64313727620000005" blue="0.65098041299999998" alpha="1" colorSpace="deviceRGB"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qjD-bX-Yqy">
+                    <rect key="frame" x="0.0" y="839" width="768" height="3"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.65098041299999998" green="0.64313727620000005" blue="0.65098041299999998" alpha="1" colorSpace="deviceRGB"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2aF-4y-rmv">
+                    <rect key="frame" x="383" y="244" width="3" height="780"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.65098041299999998" green="0.64313727620000005" blue="0.65098041299999998" alpha="1" colorSpace="deviceRGB"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oLP-dZ-yhB">
+                    <rect key="frame" x="99" y="264" width="248" height="136"/>
+                    <animations/>
+                    <state key="normal" image="personalinfo.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="profile_action:" destination="-1" eventType="touchUpInside" id="qZt-bd-GWJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Loj-Fi-rRi">
+                    <rect key="frame" x="431" y="264" width="218" height="136"/>
+                    <animations/>
+                    <state key="normal" image="bloodpresure.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="bp_action:" destination="-1" eventType="touchUpInside" id="AAT-4O-4FQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhe-hI-ZXV">
+                    <rect key="frame" x="94" y="433" width="253" height="171"/>
+                    <animations/>
+                    <state key="normal" image="risk.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="risk_avelution_action:" destination="-1" eventType="touchUpInside" id="xnd-hy-QqE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ne1-uV-FUr">
+                    <rect key="frame" x="440" y="433" width="201" height="171"/>
+                    <animations/>
+                    <state key="normal" image="healthrecord.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="report_action:" destination="-1" eventType="touchUpInside" id="ss7-Gk-iPb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcf-Ba-Q83">
+                    <rect key="frame" x="431" y="661" width="218" height="156"/>
+                    <animations/>
+                    <state key="normal" image="about champ.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="about:" destination="-1" eventType="touchUpInside" id="lWt-1c-CiN"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fAO-BZ-IYK">
+                    <rect key="frame" x="108" y="868" width="224" height="148"/>
+                    <animations/>
+                    <state key="normal" image="c1.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="calander_action:" destination="-1" eventType="touchUpInside" id="0pJ-YW-40a"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VD2-I0-dhs">
+                    <rect key="frame" x="126" y="661" width="195" height="156"/>
+                    <animations/>
+                    <state key="normal" image="calculate.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="bmicalculate_action:" destination="-1" eventType="touchUpInside" id="F92-Gp-gzz"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="N/A bpm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AtS-CV-VAH">
+                    <rect key="frame" x="250" y="167" width="130" height="31"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <color key="textColor" red="0.61785578727722168" green="0.49961942434310913" blue="0.23602104187011719" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRW-Xe-uxN">
+                    <rect key="frame" x="435" y="868" width="211" height="148"/>
+                    <animations/>
+                    <state key="normal" image="logout.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="logout_action:" destination="-1" eventType="touchUpInside" id="2mw-es-oTO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.81960784313725488" green="0.81960784313725488" blue="0.81960784313725488" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="about champ.png" width="155" height="162"/>
+        <image name="bar.png" width="640" height="80"/>
+        <image name="bloodpresure.png" width="155" height="162"/>
+        <image name="c1.png" width="155" height="163"/>
+        <image name="calculate.png" width="154" height="163"/>
+        <image name="dp.png" width="80" height="80"/>
+        <image name="healthrecord.png" width="154" height="161"/>
+        <image name="logout.png" width="155" height="163"/>
+        <image name="personalinfo.png" width="154" height="162"/>
+        <image name="risk.png" width="154" height="162"/>
+    </resources>
+</document>
